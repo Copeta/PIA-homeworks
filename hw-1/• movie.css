@@ -1,39 +1,36 @@
+.naslov{
+  color: black ;
+  text-align: center;
+  font-size: 24pt;
+  text-shadow: 3px 3px 3px #999999;
+}
+
 body{
         background-image: url('background.png');
        
     }
-  .container div{
-      color: blanchedalmond;
+.container div{
+      color: black;
       border:1px blue solid;
-  }
+}
   
-  .container {
+.container {
       display: flex;
-      justify-content: center;
-  
-     
-     
       
-     
-     
-  }
+      flex-direction: row;
+      justify-content: center;
+      text-align: center;
+}
   
-  .box1{
+.box1{
     flex: 9;
-     background-color: coral;
+     background-color:  #EEEEEE;
+}
     
-     
-     
-  
-     
-    
-     
-  }
-  
-  .box2{
+.box2{
       flex: 1;
      background-color: cornflowerblue;
-  }
+}
   
   
   
