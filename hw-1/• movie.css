@@ -16,7 +16,7 @@ body{
 .container{
   display: flex;
   width: 55%;
-  justify-content: center;
+  
   
 }
 .levo{
@@ -24,10 +24,12 @@ body{
   background-color: #EEEEEE;
   display: flex;
   flex-direction: column;
+
 }
 .desno{
   flex: 1;
   background-color:  #A2B964;
+ 
   
 }
 .quotebubble{
@@ -37,4 +39,11 @@ body{
   border-radius: 12px;
   padding: 1em;
   margin: 1em;
+}
+.slika{
+  background-image: url('rbg.png');
+  
+}
+.broj{
+  color: red;
 }
