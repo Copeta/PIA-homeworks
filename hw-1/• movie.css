@@ -1,13 +1,39 @@
-body {
-    background-color: lightblue;
+body{
+        background-image: url('background.png');
+       
+    }
+  .container div{
+      color: blanchedalmond;
+      border:1px blue solid;
   }
   
-  h1 {
-    color: white;
-    text-align: center;
+  .container {
+      display: flex;
+      justify-content: center;
+  
+     
+     
+      
+     
+     
   }
   
-  p {
-    font-family: verdana;
-    font-size: 20px;
+  .box1{
+    flex: 9;
+     background-color: coral;
+    
+     
+     
+  
+     
+    
+     
   }
+  
+  .box2{
+      flex: 1;
+     background-color: cornflowerblue;
+  }
+  
+  
+  
