@@ -1,38 +1,40 @@
-.naslov{
-  color: black ;
-  text-align: center;
-  font-size: 24pt;
-  text-shadow: 3px 3px 3px #999999;
-}
-
 body{
-        background-image: url('background.png');
-       
-    }
+  background-image: url('background.png');
+}
 .container div{
-      color: black;
-      border:1px blue solid;
-}
+  border: 5px grey solid;
   
-.container {
-      display: flex;
-      
-      flex-direction: row;
-      justify-content: center;
-      text-align: center;
-}
   
-.box1{
-    ;
-    flex: 9;
-     background-color:  #EEEEEE;
-}
-    
-.box2{
 
-      flex: 1;
-     background-color: cornflowerblue;
 }
+.desno div{
+  margin: 1em;
   
+}
+
+
+.container{
+  display: flex;
+  width: 55%;
+  justify-content: center;
   
+}
+.levo{
+  flex: 9;
+  background-color: #EEEEEE;
+  display: flex;
+  flex-direction: column;
+}
+.desno{
+  flex: 1;
+  background-color:  #A2B964;
   
+}
+.quotebubble{
+  flex;
+  background-color: #FFFFFF;
+  border: 2px #CCCCCC solid;
+  border-radius: 12px;
+  padding: 1em;
+  margin: 1em;
+}
