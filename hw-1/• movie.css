@@ -23,11 +23,13 @@ body{
 }
   
 .box1{
+    ;
     flex: 9;
      background-color:  #EEEEEE;
 }
     
 .box2{
+
       flex: 1;
      background-color: cornflowerblue;
 }
