@@ -2,20 +2,28 @@ body{
   background-image: url('background.png');
 }
 .container div{
-  border: 5px grey solid;
-  
-  
-
+  border-left: 5px gray solid;
+  border-top: 5px gray solid;
+  border-bottom: 5px gray solid;
+  border-right:5px gray solid ;
+  font-size: 12pt;
+  font-family: Arial, Helvetica, sans-serif;
 }
 .desno div{
   margin: 1em;
   
 }
-
+.naslov{
+  font-size: 24pt;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  text-shadow: 3px 3px  3px #999999;
+  text-align: center;
+}
 
 .container{
   display: flex;
   width: 55%;
+  
   
   
 }
@@ -24,11 +32,18 @@ body{
   background-color: #EEEEEE;
   display: flex;
   flex-direction: column;
+ 
+
 
 }
+.publication{
+  margin-left: 1em;
+}
+ 
 .desno{
   flex: 1;
   background-color:  #A2B964;
+  padding: 0.5em
  
   
 }
@@ -43,7 +58,13 @@ body{
 .slika{
   background-image: url('rbg.png');
   
+  
 }
 .broj{
-  color: red;
+  color: red ;
+  font-size: 48pt;
 }
+#w3c{
+  text-align: right;
+}
+.
