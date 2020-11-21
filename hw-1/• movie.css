@@ -104,3 +104,12 @@ footer{
 .publication{
   font-style: italic;
 }
+dd{
+  font-size: 12pt ;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight:bold ;
+  padding-bottom: 15px;
+}
+dl{
+  font-weight:bold ;
+}
