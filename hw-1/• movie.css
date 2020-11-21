@@ -1,11 +1,12 @@
 body{
   background-image: url('background.png');
+  margin: none;
+  padding: none;
+  position: relative;
+
 }
 .container div{
-  border-left: 5px gray solid;
-  border-top: 5px gray solid;
-  border-bottom: 5px gray solid;
-  border-right:5px gray solid ;
+  
   font-size: 12pt;
   font-family: Arial, Helvetica, sans-serif;
 }
@@ -23,18 +24,20 @@ body{
 .container{
   display: flex;
   width: 55%;
-  
-  
-  
+  outline: 5px grey solid;
+  outline-offset: 5px;
+  margin:auto;
+  overflow: hidden;
+}
+.telo{
+  display: flex;
 }
 .levo{
   flex: 9;
   background-color: #EEEEEE;
   display: flex;
   flex-direction: column;
- 
-
-
+  
 }
 .publication{
   margin-left: 1em;
@@ -43,9 +46,10 @@ body{
 .desno{
   flex: 1;
   background-color:  #A2B964;
-  padding: 0.5em
- 
-  
+}
+dl{
+  padding: 15px;
+
 }
 .quotebubble{
   flex;
@@ -57,14 +61,46 @@ body{
 }
 .slika{
   background-image: url('rbg.png');
+  height: 83px;
+  position: relative;
+  overflow: hidden;
+  margin-bottom: 1em;
   
   
 }
 .broj{
   color: red ;
   font-size: 48pt;
+  position: absolute;
+  margin-top: 8px;
+ 
+  
+  
 }
 #w3c{
   text-align: right;
 }
-.
+
+p:not(.quotebubble){
+  font-size: 13pt;
+  margin-left: 2%;
+}
+
+p:not(.quotebubble)>img{
+  float: left;
+  margin-right: 5px;
+}
+.quotebubble>img{
+  margin-right:5px ;
+  margin-bottom: 5px;
+  float: left;
+}
+footer{
+  background-color: #A2B964 ;
+  text-align:center;
+  
+
+}
+.publication{
+  font-style: italic;
+}
