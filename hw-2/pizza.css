@@ -46,10 +46,7 @@ footer{
 @media (max-width: 576px) {
   
 }
-header,#intro{
-    height: 100%;
-   
-}
+
 #naslov{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     color: #743c52;
