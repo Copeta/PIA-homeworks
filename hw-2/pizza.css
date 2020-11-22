@@ -33,7 +33,13 @@ footer{
     background-color: #40474e;
     color: white;
 }
-
+header{
+    background-image: url("naslovna.jpg");
+    color: white ;
+    font-size: 25px;
+    
+    padding-bottom: 20px;
+}
 
 
 /*---Media Queries --*/
@@ -49,10 +55,12 @@ footer{
 
 #naslov{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    color: #743c52;
+    color: rgb(10, 7, 7);
 }
 
-
+[class*="col-"] {
+    padding: 1rem;
+}
 
 
 
