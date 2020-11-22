@@ -9,6 +9,9 @@ html, body{
     font-family: 'Poppins', sans-serif;
     color:##4c616a;
 }
+#ime{
+    font-size: 35px;
+}
 .navbar{
     padding: .8rem;
 }
