@@ -97,7 +97,9 @@ p:not(.quotebubble)>img{
 }
 footer{
   background-color: #A2B964 ;
-  text-align:center;
+  font-weight:bold ;
+  text-align: center;
+  padding-left: 200px;
   
 
 }
